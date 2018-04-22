@@ -8,6 +8,7 @@ $smarty->template_dir = dirname( __FILE__ ).'/templates';
 $smarty->compile_dir  = dirname( __FILE__ ).'/templates_c';
 
 $smarty->assign('name', 'ワールド');
+$smarty->assign('myname', '岡田敏裕');
 $smarty->display('sample.tpl');
 
 ?>
