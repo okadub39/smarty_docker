@@ -23,5 +23,4 @@ ADD . $code_root
 RUN test -e $httpd_conf && echo "Include $httpd_conf" >> /etc/httpd/conf/httpd.conf
 
 EXPOSE 80
-CMD ["/usr/sbin/apachectl", "-D", "FOREGROUND"]
 
